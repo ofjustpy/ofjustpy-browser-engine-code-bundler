@@ -14,18 +14,16 @@
 
   function eventHandlerWrapper(eventType) {
     return function (event) {
-      console.log("in eventhandler")
-      console.log(eventType)
+      //console.log("in eventhandler")
+      //console.log(eventType)
       if (jp_props.events.includes(eventType)) {
         eventHandler_CSR(props, event, false);
       }
     };
   }
 
-console.log("Now handling");
-console.log(jp_props);
  function handleDoubleClick(event) {
-        console.log("Double-clicked!");
+        //console.log("Double-clicked!");
         
         // You can perform additional actions here
     }
